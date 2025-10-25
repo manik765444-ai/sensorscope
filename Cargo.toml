@@ -1,0 +1,16 @@
+[package]
+name = "sensorscope"
+version = "0.1.0"
+authors = ["Your Name <your.email@example.com>"]
+edition = "2021"
+description = "A system monitor for tracking system resources."
+license = "MIT"
+repository = "https://github.com/yourusername/sensorscope"
+
+[dependencies]
+sysinfo = "0.28"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1", features = ["full"] }
+chrono = "0.4"
+clap = { version = "4.0", features = ["derive"] }
